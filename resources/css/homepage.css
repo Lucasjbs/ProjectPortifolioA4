@@ -1,0 +1,145 @@
+/* Navbar */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #CF441D;
+}
+
+h3 {
+    font-size: 22px;
+    color: black;
+}
+
+.header_top {
+    background-color: #EDB46F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    opacity: 0.7;
+    height: 32px;
+}
+
+.header_top_right {
+    padding-right: 1rem;
+}
+
+.header_top_right .hide_button {
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+}
+
+.header_top_right .hide_button::after {
+    display: block;
+    transform: rotate(45deg);
+    margin: -4px 0 0 6px;
+    box-shadow: -1px -1px 0 #333 inset;
+    width: 8px;
+    height: 8px;
+    content: "";
+}
+
+.header_top_left {
+    padding-left: 1rem;
+}
+
+.header_top_left img {
+    width: 28px;
+    height: 22px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.header_main img {
+    width: 100px;
+    height: 45px;
+}
+
+.header_main_middle a,
+.header_main_right a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.overview_section {
+    background-color: #D1C4A4;
+    display: flex;
+    align-items: start;
+}
+
+.left_overview img {
+    min-width: 240px;
+    max-width: 280px;
+    height: auto;
+    padding: 10px;
+}
+
+.left_overview {
+    margin-left: 3rem;
+    position: relative;
+}
+
+.right_overview {
+    padding: 10px;
+    margin-left: 1rem;
+    max-width: 680px;
+}
+
+.aboutme_section {
+    background-color: #D0C8B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* align-items: start; */
+}
+
+.aboutme_text {
+    display: flex;
+    justify-content: start;
+}
+
+.experience_section {
+    background-color: #D1C4A4;
+    padding: 10px;
+}
+
+.experience_content {
+    margin-left: 3rem;
+}
+
+.experience_topic {
+    margin-bottom: 2rem;
+}
+
+.proficiencies_section {
+    background-color: #D0C8B1;
+    padding: 10px;
+}
+
+.proficiencies_content {
+    margin-left: 3rem;
+}
+
+.contact_section {
+    background-color: #D1C4A4;
+    padding: 10px;
+}
+
+.contact_content {
+    margin-left: 3rem;
+}
+

@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-color: #EDB46F;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
