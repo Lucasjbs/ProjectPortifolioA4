@@ -1,79 +1,13 @@
-<!-- TO-DO: 
-    1- Detach Navbar and Footer to seperate files
-    2- Change languages functionality
-    3- Hide/Show navbar functionality
-    4- Check if User is Logged In functionality
-    5- Experience and Projects Carousel with Images
-    6- Skill proficiencies with graphs, progress bars and Skillset Hexagon
-    7- Contact Info with Website Logos
--->
-
 <script setup>
 import { Head } from '@inertiajs/vue3';
+import Navbar from '@/Components/Custom/Navbar.vue';
+import Footerbar from '@/Components/Custom/Footerbar.vue';
 import '../../css/homepage.css';
-
-defineProps({
-    canLogin: {
-        type: Boolean,
-    },
-    canRegister: {
-        type: Boolean,
-    },
-});
-</script>
-
-<script>
-import usFlag from '../../assets/us_flag.svg';
-import brFlag from '../../assets/br_flag.svg';
-
-export default {
-    data() {
-        return {
-            isRed: true,
-            redIconSrc: usFlag,
-            blueIconSrc: brFlag
-        };
-    },
-    methods: {
-        toggleColor() {
-            this.isRed = !this.isRed;
-        }
-    }
-};
 </script>
 
 <template>
-
     <Head title="Homepage" />
-    <header>
-        <div class="header_top">
-            <div class="header_top_left">
-                <img :src="isRed ? redIconSrc : blueIconSrc" @click="toggleColor" alt="Icon" />
-            </div>
-            <div class="header_top_right">
-                <div class="hide_button">
-                    Hide
-                </div>
-            </div>
-        </div>
-
-        <div class="header_main">
-            <div class="header_main_left">
-                <img src="../../assets/ljb_logo.png" />
-            </div>
-            <div class="header_main_middle">
-                <a href="/homepage">Home Page</a>
-                <a href="/portfolio">Portfolio</a>
-                <a href="/certifications">Certifications</a>
-                <a href="/articles">Articles</a>
-                <a href="/projects">Projects</a>
-            </div>
-            <div class="header_main_right">
-                <a href="/login">Log In</a>
-                <a href="/register">Register</a>
-            </div>
-        </div>
-    </header>
+    <Navbar/>
 
     <div id="page_content">
         <div class="overview_section">
@@ -173,8 +107,5 @@ export default {
         </div>
 
     </div>
-
-    <footer>
-        <p>Created by Lucas J. Bastos - 2024 - Brazil</p>
-    </footer>
+    <Footerbar/>
 </template>
