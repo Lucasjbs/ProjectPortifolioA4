@@ -12,18 +12,36 @@ defineProps({
 <script>
 import usFlag from '../../../assets/us_flag.svg';
 import brFlag from '../../../assets/br_flag.svg';
+import axios from 'axios';
 
 export default {
     data() {
+        const currentLanguage = document.documentElement.lang;
+        let toggleFlag = true;
+        if (currentLanguage === 'en') toggleFlag = true;
+        if (currentLanguage === 'pt') toggleFlag = false;
+
         return {
-            isRed: true,
-            redIconSrc: usFlag,
-            blueIconSrc: brFlag
+            currentLanguage: currentLanguage,
+            toggleFlag: toggleFlag,
+            englishLang: usFlag,
+            portugueseLang: brFlag
         };
     },
     methods: {
-        toggleColor() {
-            this.isRed = !this.isRed;
+        async changeLanguage() {
+            let locale = 'en';
+            if (this.currentLanguage === 'en') locale = 'pt';
+            if (this.currentLanguage === 'pt') locale = 'en';
+
+            try {
+                const response = await axios.post('/set-locale', { locale });
+                console.log(response.data.message);
+
+                window.location.reload();
+            } catch (error) {
+                console.error('Error changing language:', error);
+            }
         }
     }
 };
@@ -33,11 +51,11 @@ export default {
     <header>
         <div class="header_top">
             <div class="header_top_left">
-                <img :src="isRed ? redIconSrc : blueIconSrc" @click="toggleColor" alt="Icon" />
+                <img :src="toggleFlag ? englishLang : portugueseLang" @click="changeLanguage" alt="Icon" />
             </div>
             <div class="header_top_right">
                 <div class="hide_button">
-                    Hide
+                    {{ $t('Hide') }}
                 </div>
             </div>
         </div>
@@ -47,15 +65,15 @@ export default {
                 <img src="../../../assets/ljb_logo.png" />
             </div>
             <div class="header_main_middle">
-                <a href="/homepage">Home Page</a>
-                <a href="/portfolio">Portfolio</a>
-                <a href="/certifications">Certifications</a>
-                <a href="/articles">Articles</a>
-                <a href="/projects">Projects</a>
+                <a href="/homepage"> {{ $t('Homepage') }}</a>
+                <a href="/portfolio">{{ $t('Portfolio') }}</a>
+                <a href="/certifications">{{ $t('Certifications') }}</a>
+                <a href="/articles">{{ $t('Articles') }}</a>
+                <a href="/projects">{{ $t('Projects') }}</a>
             </div>
             <div class="header_main_right">
-                <a href="/login">Log In</a>
-                <a href="/register">Register</a>
+                <a href="/login">{{ $t('Login') }}</a>
+                <a href="/register">{{ $t('Register') }}</a>
             </div>
         </div>
     </header>

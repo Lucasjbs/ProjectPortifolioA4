@@ -1,0 +1,39 @@
+{
+    "HomepageDevTitle": "Desenvolvedor Web Fullstack",
+    "HomepageIntroduction": "Experiente em desenvolvimento de códigos back-end em ambientes dinâmicos como o de startups de tecnologia, juntamente com experiência prática como desenvolvedor full-stack em vários projetos universitários e pessoais.",
+    "HomepageSkillOverview": {
+        "title": "Competências - Visão Geral",
+        "items": [
+          "Experiente em desenvolvimento de códigos com PHP e Javascript;",
+          "Experiente com metodologias de Desenvolvimento Orientado a Testes (TDD), utilizando phpunit para garantir a confiabilidade do código;",
+          "Compreensão sólida dos fundamentos da linguagem, programação orientada a objetos (POO), princípios SOLID e boas práticas;",
+          "Proficiente em documentação de projetos, com foco em documentação clara e abrangente para auxiliar na compreensão e manutenção do projeto;",
+          "Proficiente em sistemas de controle de versão como Git, GitHub e GitLab, com experiência em gerenciamento de repositórios de código e colaboração com equipes;",
+          "Familiarizado com Slim Framework, HyperF e Elastic para desenvolvimento eficiente de backend;",
+          "Familiarizado com outras linguagens de programação, como C/C++, Java, C#;"
+        ]
+    },
+    "HomepageAboutMeTitle": "Sobre Mim",
+    "HomepageAboutMeParagraph": "Olá! Sou Lucas Bastos, um desenvolvedor de software dedicado que, ao longo de minha carreira profissional, percorreu caminhos desafiadores que me ensinaram a importância da disciplina, colaboração, aprendizado contínuo e a busca incessante pelo crescimento profissional. Atualmente, estou em busca de novas conexões e oportunidades para trabalhar em desenvolvimento de software, trocar ideias e crescer profissionalmente.",
+    "HomepageExperienceProjects": {
+      "title": "Experiência e Projetos",
+      "university": [
+        "Universidade",
+        "Na faculdade, construí protótipos de compiladores, web crawlers, sites, simulações de redes e mais..."
+      ],
+      "internship": [
+        "Estágio na Mova",
+        "Durante meu estágio na Mova, coloquei em prática os fundamentos da programação. Aprendi a usar o framework Slim com Docker, GitLab e Linux como meu sistema operacional..."
+      ],
+      "developer": [
+        "Desenvolvedor Backend Júnior na Mova",
+        "Como funcionário, fiz documentações vinculando o código ao modelo de negócios da empresa, criei e corrigi casos de teste com phpunit, fiz configurações de CI/CD e mais..."
+      ],
+      "personal": [
+        "Projetos Pessoais",
+        "Fiz meu próprio site pessoal do zero, trabalhei em projetos freelance e continuo estudando para melhorar meu desempenho, com bootcamps e cursos..."
+      ]
+    },
+    "HomepageSkillProficienciesTitle": "Habilidades e Competências",
+    "HomepageContactTitle": "Contato"
+}
