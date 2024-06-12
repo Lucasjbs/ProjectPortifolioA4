@@ -1,4 +1,6 @@
 <script setup>
+import { ref } from 'vue';
+
 defineProps({
     canLogin: {
         type: Boolean,
@@ -7,6 +9,13 @@ defineProps({
         type: Boolean,
     },
 });
+
+const showHeader = ref(true);
+console.log(showHeader);
+
+function toggleHeader() {
+  showHeader.value = !showHeader.value;
+}
 </script>
 
 <script>
@@ -54,13 +63,13 @@ export default {
                 <img :src="toggleFlag ? englishLang : portugueseLang" @click="changeLanguage" alt="Icon" />
             </div>
             <div class="header_top_right">
-                <div class="hide_button">
-                    {{ $t('Hide') }}
+                <div class="hide_button" @click="toggleHeader">
+                    {{ showHeader ? $t('Hide') : $t('Show') }}
                 </div>
             </div>
         </div>
 
-        <div class="header_main">
+        <div v-if="showHeader" class="header_main">
             <div class="header_main_left">
                 <img src="../../../assets/ljb_logo.png" />
             </div>
