@@ -33,10 +33,7 @@ Route::get('/testboard', function () {
 })->name('testboard');
 
 Route::get('/homepage', function () {
-    return Inertia::render('Homepage', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-    ]);
+    return Inertia::render('Homepage');
 })->name('homepage');
 
 Route::post('/set-locale', function (\Illuminate\Http\Request $request) {

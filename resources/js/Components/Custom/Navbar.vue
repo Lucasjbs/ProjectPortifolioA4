@@ -1,20 +1,10 @@
 <script setup>
 import { ref } from 'vue';
 
-defineProps({
-    canLogin: {
-        type: Boolean,
-    },
-    canRegister: {
-        type: Boolean,
-    },
-});
-
 const showHeader = ref(true);
-console.log(showHeader);
 
 function toggleHeader() {
-  showHeader.value = !showHeader.value;
+    showHeader.value = !showHeader.value;
 }
 </script>
 
@@ -80,9 +70,11 @@ export default {
                 <a href="/articles">{{ $t('Articles') }}</a>
                 <a href="/projects">{{ $t('Projects') }}</a>
             </div>
+
             <div class="header_main_right">
-                <a href="/login">{{ $t('Login') }}</a>
-                <a href="/register">{{ $t('Register') }}</a>
+                <a v-if="!$page.props.auth.user" href="/login">{{ $t('Login') }}</a>
+                <a v-else href="/dashboard">Dashboard</a>
+                <a v-if="!$page.props.auth.user" href="/register">{{ $t('Register') }}</a>
             </div>
         </div>
     </header>
