@@ -32,6 +32,11 @@ h3 {
     height: 100%;
 }
 
+.header_top_right .hide_button:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
 .header_top_right .hide_button::after {
     display: block;
     transform: rotate(45deg);
@@ -49,8 +54,11 @@ h3 {
 .header_top_left img {
     width: 28px;
     height: 22px;
-    border: 2px solid black;
     cursor: pointer;
+}
+
+.header_top_left img:hover {
+    border: 2px solid darkblue;
 }
 
 .header_main {

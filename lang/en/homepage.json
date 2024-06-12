@@ -1,0 +1,39 @@
+{
+    "HomepageDevTitle": "Fullstack Web Developer",
+    "HomepageIntroduction": "Experienced in backend development within the dynamic environments of technology startups, coupled with hands-on experience as a full-stack developer in various college and personal projects.",
+    "HomepageSkillOverview": {
+        "title": "Skill Overview",
+        "items": [
+          "Experienced in PHP and Javascript development;",
+          "Experienced with Test-Driven Development (TDD) methodologies, using phpunit to ensure code reliability;",
+          "Strong understanding of language fundamentals, object oriented programming (OOP), SOLID and best practices;",
+          "Proficient in project documentation, with a focus on clear and comprehensive documentation to aid in project understanding and maintenance;",
+          "Proficient in version control systems such as Git, GitHub, and GitLab, with experience in managing code repositories and collaborating with teams;",
+          "Familiar with Slim Framework, HyperF and Elastic for efficient backend development;",
+          "Familiar with other programming languages, such as C/C++, Java, C#;"
+        ]
+    },
+    "HomepageAboutMeTitle": "About Me",
+    "HomepageAboutMeParagraph": "Hello! I'm Lucas Bastos, a dedicated software developer who, throughout my professional career, went through challenging paths that taught me the importance of discipline, collaboration, continuous learning, and the relentless pursuit of professional growth. Currently, I am seeking new connections and opportunities to work in software development, to exchange ideas and grow professionally.",
+    "HomepageExperienceProjects": {
+      "title": "Experience and Projects",
+      "university": [
+        "University",
+        "In college I built compiler prototypes, web crawlers, websites, network simulations and more..."
+      ],
+      "internship": [
+        "Internship at Mova",
+        "During my internship at Mova I put the fundamentals of programming into practice. I learned how to use the slim framework with docker, gitlab and Linux as my operating system..."
+      ],
+      "developer": [
+        "Junior Backend Developer at Mova",
+        "As an employee, I made documentations tying the code with the company's business model, created and fixed test cases with phpunit, made CI/CD configurations and more..."
+      ],
+      "personal": [
+        "Personal Projects",
+        "Made my own personal website from scratch, worked on freelance projects and continue to study to improve my performance, with bootcamps and courses..."
+      ]
+    },
+    "HomepageSkillProficienciesTitle": "Skill Proficiencies",
+    "HomepageContactTitle": "Contact"
+}

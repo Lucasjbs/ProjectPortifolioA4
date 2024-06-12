@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Session;
 use Inertia\Inertia;
 
 Route::get('/', function () {
@@ -32,11 +33,19 @@ Route::get('/testboard', function () {
 })->name('testboard');
 
 Route::get('/homepage', function () {
-    return Inertia::render('Homepage', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-    ]);
+    return Inertia::render('Homepage');
 })->name('homepage');
+
+Route::post('/set-locale', function (\Illuminate\Http\Request $request) {
+    $locale = $request->input('locale');
+    if (in_array($locale, ['en', 'pt'])) { // Add all your supported locales here
+        App::setLocale($locale);
+        Session::put('locale', $locale);
+        return response()->json(['message' => 'Locale changed successfully.']);
+    } else {
+        return response()->json(['message' => 'Invalid locale.'], 400);
+    }
+});
 
 Route::get('/portfolio', function () {
     return Inertia::render('Homepage', [
