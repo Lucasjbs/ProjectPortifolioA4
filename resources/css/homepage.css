@@ -10,6 +10,10 @@ h3 {
     color: black;
 }
 
+p {
+    text-align: justify;
+}
+
 .header_top {
     background-color: #EDB46F;
     display: flex;
@@ -129,8 +133,15 @@ h3 {
     margin-left: 3rem;
 }
 
-.experience_topic {
-    margin-bottom: 2rem;
+.carousel_content h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+.carousel_content p{
+    font-size: 20px;
+    color: bisque;
 }
 
 .proficiencies_section {
