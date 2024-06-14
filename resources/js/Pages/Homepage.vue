@@ -1,7 +1,9 @@
 <script setup>
 import { Head } from '@inertiajs/vue3';
 import Navbar from '@/Components/Custom/Navbar.vue';
-import Footerbar from '@/Components/Custom/Footerbar.vue';
+import FooterBar from '@/Components/Custom/FooterBar.vue';
+import RadialBar from '@/Components/Custom/RadialBar.vue';
+import ProgressBar from '@/Components/Custom/ProgressBar.vue';
 import '../../css/homepage.css';
 </script>
 
@@ -55,13 +57,13 @@ export default {
                 <div class="col-3"></div>
             </div>
         </div>
-        
+
         <div class="experience_section">
             <div class="experience_content">
                 <h2>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').title : '' }}</h2>
                 
                 <div id="default-carousel" class="relative w-full" data-carousel="static">
-                    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                    <div class="relative h-lvh overflow-hidden rounded-lg md:h-lvh">
                         <!-- Item 1 -->
                         <div class="hidden duration-700 ease-in-out" data-carousel-item>
                             <img src="../../assets/homepage/college.jpg" class="absolute block w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
@@ -133,12 +135,55 @@ export default {
         </div>
 
         <div class="proficiencies_section">
+            <h2>{{ $t('HomepageSkillProficienciesTitle') }}</h2>
             <div class="proficiencies_content">
-                <h2>{{ $t('HomepageSkillProficienciesTitle') }}</h2>
-                <p>PHP: 90%</p>
-                <p>Javascript: 60%</p>
-                <p>GIT: 80%</p>
-                <p>Laravel: 40%</p>
+                <!-- find a model for this section -->
+                <div class="proficiencies_left_section">
+                    <p>PHP</p>
+                    <ProgressBar :percentage="Number(90)"/>
+                    <p>Javascript</p>
+                    <ProgressBar :percentage="Number(60)"/>
+                    <p>GIT</p>
+                    <ProgressBar :percentage="Number(80)"/>
+                    <p>Laravel</p>
+                    <ProgressBar :percentage="Number(40)"/>
+                    <p>Tailwind</p>
+                    <ProgressBar :percentage="Number(40)"/>
+                    <p>Frontedn Basics (HTML + CSS)</p>
+                    <ProgressBar :percentage="Number(80)"/>
+                    <p>MySQL</p>
+                    <ProgressBar :percentage="Number(60)"/>
+                    <p>Docker</p>
+                    <ProgressBar :percentage="Number(30)"/>
+                    <p>Artificical Intelligence</p>
+                    <ProgressBar :percentage="Number(30)"/>
+                </div>
+                <div class="proficiencies_right_section">
+                    <div class="secondary_skills">
+                        <RadialBar :percentage="Number(70)"/>
+                        <p>Object Oriented Programming (OOP)</p>
+                    </div>
+                    <div class="secondary_skills">
+                        <RadialBar :percentage="Number(70)"/>
+                        <p>SOLID Standards</p>
+                    </div>
+                    <div class="secondary_skills">
+                        <RadialBar :percentage="Number(20)"/>
+                        <p>CI/CD</p>
+                    </div>
+                    <div class="secondary_skills">
+                        <RadialBar :percentage="Number(70)"/>
+                        <p>Code Documentation</p>
+                    </div>
+                    <div class="secondary_skills">
+                        <RadialBar :percentage="Number(30)"/>
+                        <p>Artificical Intelligence</p>
+                    </div>
+                    <div class="secondary_skills">
+                        <RadialBar :percentage="Number(50)"/>
+                        <p>Data Structures</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -154,5 +199,5 @@ export default {
         </div>
 
     </div>
-    <Footerbar/>
+    <FooterBar/>
 </template>

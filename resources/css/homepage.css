@@ -149,8 +149,36 @@ p {
     padding: 10px;
 }
 
+.proficiencies_section h2{
+    margin-left: 3rem;
+}
+
 .proficiencies_content {
     margin-left: 3rem;
+    display: flex;
+}
+
+.proficiencies_left_section
+{
+    width: 40%;
+}
+
+.progress-bar{
+    margin-bottom: 1rem;
+}
+
+.proficiencies_right_section
+{
+    margin-left: 3rem;
+}
+
+.secondary_skills{
+    display: flex;
+    align-items: center;
+}
+
+.secondary_skills p{
+    margin-left: 1rem;
 }
 
 .contact_section {
