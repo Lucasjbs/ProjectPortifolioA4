@@ -17,6 +17,13 @@ export default {
     mounted() {
         initFlowbite();
     },
+    methods: {
+        copyEmail() {
+        navigator.clipboard.writeText("lucasjbastos26@gmail.com").then(() => {
+            alert('Email copied to clipboard!');
+        });
+        },
+    },
 }
 </script>
 
@@ -121,7 +128,7 @@ export default {
                             </svg>
                             <span class="sr-only">Previous</span>
                         </span>
-                    </button>
+                        </button>
                     <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
                         <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
                             <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
@@ -129,7 +136,7 @@ export default {
                             </svg>
                             <span class="sr-only">Next</span>
                         </span>
-                    </button>
+                        </button>
                 </div>
             </div>
         </div>
@@ -188,13 +195,46 @@ export default {
         </div>
 
         <div class="contact_section">
+            <h2>{{ $t('HomepageContactTitle') }}</h2>
             <div class="contact_content">
-                <h2>{{ $t('HomepageContactTitle') }}</h2>
-                <p>LinkedIn</p>
-                <p>Github</p>
-                <p>Youtube</p>
-                <p>Email</p>
-                <p>Whatsapp</p>
+                <div class="flex items-center justify-center h-40">
+
+                    <div class="button-container">
+                        <a href="https://www.linkedin.com/in/lucas-junqueira-bastos-85b89b203/" target="_blank">
+                            <button type="button" class="flex items-center text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                                LinkedIn
+                                <img src="../../assets/homepage/logo-linkedin.png" alt="LinkedIn Icon" class="w-5 h-5 mr-2">
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/Lucasjbs" target="_blank">
+                            <button type="button" class="flex items-center text-white bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                                GitHub
+                                <img src="../../assets/homepage/logo-github.png" alt="GitHub Icon" class="w-5 h-5 mr-2">
+                            </button>
+                        </a>
+
+                        <button type="button" @click="copyEmail" class="flex items-center text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-orange-300 dark:focus:ring-orange-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                            GMail
+                            <img src="../../assets/homepage/logo-gmail.png" alt="GitHub Icon" class="w-5 h-5 mr-2">
+                        </button>
+
+                        <a href="https://www.youtube.com/channel/UCdxZm4YcdT77vaNf3L24xPg" target="_blank">
+                            <button type="button" class="flex items-center text-white bg-gradient-to-r from-red-500 via-red-600 to-red-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                                YouTube
+                                <img src="../../assets/homepage/logo-youtube.png" alt="GitHub Icon" class="w-5 h-5 mr-2">
+                            </button>
+                        </a>
+
+                        <a href="https://wa.me/5535984043366" target="_blank">
+                            <button type="button" class="flex items-center text-white bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                                Whatsapp
+                                <img src="../../assets/homepage/logo-whatsapp.png" alt="GitHub Icon" class="w-5 h-5 mr-2">
+                            </button>
+                        </a>
+                    </div>
+            
+                </div>
             </div>
         </div>
 

@@ -36,7 +36,7 @@ p {
     height: 100%;
 }
 
-.header_top_right .hide_button:hover{
+.header_top_right .hide_button:hover {
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
@@ -133,13 +133,13 @@ p {
     margin-left: 3rem;
 }
 
-.carousel_content h3{
+.carousel_content h3 {
     font-size: 26px;
     font-weight: bold;
     color: blanchedalmond;
 }
 
-.carousel_content p{
+.carousel_content p {
     font-size: 20px;
     color: bisque;
 }
@@ -149,7 +149,7 @@ p {
     padding: 10px;
 }
 
-.proficiencies_section h2{
+.proficiencies_section h2 {
     margin-left: 3rem;
 }
 
@@ -158,26 +158,24 @@ p {
     display: flex;
 }
 
-.proficiencies_left_section
-{
+.proficiencies_left_section {
     width: 40%;
 }
 
-.progress-bar{
+.progress-bar {
     margin-bottom: 1rem;
 }
 
-.proficiencies_right_section
-{
+.proficiencies_right_section {
     margin-left: 3rem;
 }
 
-.secondary_skills{
+.secondary_skills {
     display: flex;
     align-items: center;
 }
 
-.secondary_skills p{
+.secondary_skills p {
     margin-left: 1rem;
 }
 
@@ -188,5 +186,22 @@ p {
 
 .contact_content {
     margin-left: 3rem;
+    /* display: flex; */
 }
 
+/* .contact_content a {
+    display: block;
+    max-width: 50px;
+} */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact_content img {
+    margin-left: 1rem;
+    margin-right: 10px;
+}
