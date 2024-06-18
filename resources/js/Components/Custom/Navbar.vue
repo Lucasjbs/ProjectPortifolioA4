@@ -11,6 +11,7 @@ function toggleHeader() {
 <script>
 import usFlag from '../../../assets/us_flag.svg';
 import brFlag from '../../../assets/br_flag.svg';
+import '../../../css/navbar.css';
 import axios from 'axios';
 
 export default {
@@ -64,7 +65,7 @@ export default {
                 <img src="../../../assets/ljb_logo.png" />
             </div>
             <div class="header_main_middle">
-                <a href="/homepage"> {{ $t('Homepage') }}</a>
+                <a href="/"> {{ $t('Homepage') }}</a>
                 <a href="/portfolio">{{ $t('Portfolio') }}</a>
                 <a href="/certifications">{{ $t('Certifications') }}</a>
                 <a href="/articles">{{ $t('Articles') }}</a>
