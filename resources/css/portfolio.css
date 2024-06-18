@@ -1,0 +1,7 @@
+.portfolio_container {
+    background-color: aliceblue;
+}
+
+.right_side, .left_side {
+    margin-left: 3rem;
+}

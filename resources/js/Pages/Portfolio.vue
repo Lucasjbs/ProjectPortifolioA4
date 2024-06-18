@@ -14,7 +14,7 @@ import '../../css/portfolio.css';
         <div class="right_side">
             <div class="main_title">
                 <h2>Lucas Junqueira Bastos</h2>
-                <h3>Software Engineer Junior | PHP | Slim | MySQL</h3>
+                <h3>Software Engineer Junior | Laravel + Vue | PHP</h3>
                 <h3>Resende, Rio de Janeiro, Brazil</h3>
             </div>
 
