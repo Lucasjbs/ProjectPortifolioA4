@@ -31,7 +31,9 @@ Route::get('/', function () {
 });
 
 Route::get('/portfolio', function () {
-    return Inertia::render('Portfolio');
+    return Inertia::render('Portfolio', [
+        'renderMode' => false,
+    ]);
 })->name('portfolio');
 
 Route::get('/certifications', function () {
@@ -45,6 +47,13 @@ Route::get('/articles', function () {
 Route::get('/projects', function () {
     return Inertia::render('Projects');
 })->name('projects');
+
+
+Route::get('/portfolio/pdf', function () {
+    return Inertia::render('Portfolio', [
+        'renderMode' => true,
+    ]);
+})->name('portfolio');
 
 Route::get('/testboard', function () {
     //https://laravel.com/docs/11.x/installation#next-steps
