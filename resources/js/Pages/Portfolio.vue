@@ -64,10 +64,10 @@ export default {
                 </div>
                 <div class="title_description">
                     <h2>Lucas Junqueira Bastos</h2>
-                    <h3 v-if="!renderMode">Web Developer | Laravel | Vue | PHP</h3>
+                    <h3 v-if="!renderMode">Web Developer</h3>
                     <h3 v-if="!renderMode">Santa Catarina, Brazil</h3>
                     
-                    <h5 v-if="renderMode">Web Developer | Laravel | Vue | PHP</h5>
+                    <h5 v-if="renderMode">Web Developer</h5>
                     <h5 v-if="renderMode">Santa Catarina, Brazil</h5>
                 </div>
             </div>

@@ -1,0 +1,40 @@
+body{
+    background-color: #D1C4A4;
+}
+
+.dropdown_bar{
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown_bar button{
+    width: 24rem;
+}
+/* 
+.dropdown_bar ul{
+    background-color: aqua;
+} */
+
+.component_card{
+    background-color: #374151;
+    margin: 2rem;
+    width: 50%;
+    color: rgb(197, 197, 197);
+}
+
+.certifications_container{
+    /* display: flex;
+    width: 50%; */
+    min-height: 600px;
+}
+
+.certification_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card_icon{
+    margin-right: 6px;
+}

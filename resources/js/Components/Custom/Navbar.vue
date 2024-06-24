@@ -68,8 +68,8 @@ export default {
                 <a href="/"> {{ $t('Homepage') }}</a>
                 <a href="/portfolio">{{ $t('Portfolio') }}</a>
                 <a href="/certifications">{{ $t('Certifications') }}</a>
-                <a href="/articles">{{ $t('Articles') }}</a>
                 <a href="/projects">{{ $t('Projects') }}</a>
+                <a href="/articles">{{ $t('Articles') }}</a>
             </div>
 
             <div class="header_main_right">
