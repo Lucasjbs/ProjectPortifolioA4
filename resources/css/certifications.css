@@ -10,10 +10,6 @@ body{
 .dropdown_bar button{
     width: 24rem;
 }
-/* 
-.dropdown_bar ul{
-    background-color: aqua;
-} */
 
 .component_card{
     background-color: #374151;
@@ -23,8 +19,6 @@ body{
 }
 
 .certifications_container{
-    /* display: flex;
-    width: 50%; */
     min-height: 600px;
 }
 
