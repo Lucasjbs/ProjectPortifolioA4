@@ -2,8 +2,6 @@
 import { Head } from '@inertiajs/vue3';
 import Navbar from '@/Components/Custom/Navbar.vue';
 import FooterBar from '@/Components/Custom/FooterBar.vue';
-import CardIcon from '@/Components/Custom/CardIcon.vue';
-import HyperlinkIcon from '@/Components/Custom/HyperlinkIcon.vue';
 import Dropdown from '@/Components/Custom/Dropdown.vue';
 import CertificationCard from '@/Components/Custom/CertificationCard.vue';
 import '../../css/certifications.css';
