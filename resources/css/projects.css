@@ -2,8 +2,16 @@ body {
     background-color: #D1C4A4;
 }
 
+h2{
+    padding: 1rem;
+}
+
 h3{
     font-weight: bold;
+}
+
+hr{
+    border-color: gray;
 }
 
 .projects_container a{

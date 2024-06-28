@@ -40,14 +40,17 @@ Route::get('/certifications', function () {
     return Inertia::render('Certifications');
 })->name('certifications');
 
-Route::get('/articles', function () {
-    return Inertia::render('Articles');
-})->name('articles');
-
 Route::get('/projects', function () {
     return Inertia::render('Projects');
 })->name('projects');
 
+Route::get('/articles', function () {
+    return Inertia::render('Articles');
+})->name('articles');
+
+Route::get('/article/{index}', function ($index) {
+    return Inertia::render('ArticleIndex', ['index' => $index]);
+})->where('index', '[0-9]+');
 
 Route::get('/portfolio/pdf', function () {
     return Inertia::render('Portfolio', [

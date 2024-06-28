@@ -13,6 +13,7 @@ import '../../css/projects.css';
 
     <div class="projects_container">
         <h2>GitHub Projects: </h2>
+        <hr>
 
         <div class="project_row_a">
             <h3>Web Development - Portfolio Website</h3>
