@@ -65,78 +65,86 @@ export default {
                 <div class="title_description">
                     <h2>Lucas Junqueira Bastos</h2>
                     <h3 v-if="!renderMode">Web Developer</h3>
-                    <h3 v-if="!renderMode">Santa Catarina, Brazil</h3>
+                    <h3 v-if="!renderMode">Santa Catarina, Brasil</h3>
                     
                     <h5 v-if="renderMode">Web Developer</h5>
-                    <h5 v-if="renderMode">Santa Catarina, Brazil</h5>
+                    <h5 v-if="renderMode">Santa Catarina, Brasil</h5>
                 </div>
             </div>
 
             <div class="summary" :class="{ 'rm_summary': renderMode }">
-                <h3>Summary</h3>
+                <h3>Resumo</h3>
 
-                <p>Hello! I'm Lucas Bastos, a Computer Engineer graduated from
-                    Instituto Federal, dedicated to my work in web development with
-                    backend using PHP. Throughout my professional journey, I have
-                    navigated challenging paths that taught me the importance of
-                    discipline, collaboration, continuous learning, and the relentless
-                    pursuit of professional growth.</p>
-
-                <p>Currently, I am seeking new connections and opportunities to work in
-                    backend development, to exchange ideas, grow professionally, and if
-                    possible, work abroad.
+                <p>
+                    Experiente em desenvolvimento de códigos back-end em ambientes dinâmicos como o de startups de tecnologia, 
+                    juntamente com experiência prática como desenvolvedor full-stack em diversos projetos universitários e 
+                    pessoais.
                 </p>
-                <p>I have work experience in PHP development, exploring the Slim
-                    framework, HyperF library, MySQL, Docker, and adhering to
-                    UML standards, test-driven development (TDD), and SCRUM
-                    methodology.</p>
+                <p>
+                    Ao longo de minha jornada profissional, passei por situações desafiadoras que me ensinaram a importância da disciplina, 
+                    da colaboração, do aprendizado contínuo e da busca incessante pelo crescimento profissional. Atualmente, estou buscando novas 
+                    conexões e oportunidades para trabalhar como desenvolvedor, trocar ideias e crescer profissionalmente.
+                </p>
             </div>
 
             <div class="experience" :class="{ 'rm_experience': renderMode }">
-                <h3>Experience</h3>
+                <h3>Experiência</h3>
+
                 <h4>MOVA | Credit as a Service</h4>
-                <h5>Junior Programmer
-                    January 2023 - January 2024 (1 year 1 month)
-                    São Paulo, Brasil
-                </h5>
-                <p>Mova is the 1st Peer-to-Peer Lending platform approved and supervised by
-                    the Brazilian Central Bank in the form of a Peer-to-Peer Loan Society (SEP)</p>
-                <p>Responsibilities:
-                    - Development and execution of backend projects and services, using Slim
-                    and HyperF technologies.
-                    - Development and implementation of test coverage strategies.
-                    - Integration with the MySQL database and use of Elastic to optimize
-                    performance and scalability.
-                    Results:
-                    Page 1 of 2
-                    - Achieved a high success rate in rectifying over 90% of tests for projects and
-                    services within my team, including the company's largest project.
-                    - Participated on the implementation of Access Tags for website clients,
-                    significantly improving user experience and bolstering security measures.
-                    - Participated on the adjustments in the generation of documentation for
-                    document 3040 to BACEN (Brazilian Central Bank), ensuring both compliance
-                    and process efficiency.
-                    - Established secure registration protocols for operator identification through
-                    encrypted data, thereby enhancing operational security.
-                    - Successfully executed CI/CD migrations, contributing to the refinement of
-                    continuous integration and continuous delivery processes.
-                    - Executed migrations from services previously developed in Slim to the
-                    HyperF architecture, resulting in enhanced performance and scalability.</p>
+                <h5>Programador Júnior</h5>
+                <h5>Janeiro de 2023 - Janeiro de 2024, Remoto</h5>
+
+                <p>
+                    A Mova é a primeira plataforma de empréstimo peer-to-peer aprovada e supervisionada pelo Banco Central do Brasil na 
+                    forma de uma Sociedade de Empréstimo entre Pessoas (SEP).
+                </p>
+
+                <p>Responsabilidades:</p>
+                    <p>- Desenvolvimento e execução de projetos e serviços de backend, utilizando as tecnologias Slim e HyperF.</p>
+                    <p>- Desenvolvimento e implementação de estratégias de cobertura de testes.</p>
+                    <p>- Integração com o banco de dados MySQL e uso do Elastic para otimizar desempenho e escalabilidade.</p>
+                <p>Resultados:</p>
+                    
+                    <p>- Participei da implementação de Tags de Acesso para clientes do site, melhorando significativamente a experiência do usuário e fortalecendo as medidas de segurança.</p>
+                    <p>- Participei dos ajustes na geração de documentação para o documento 3040 do BACEN (Banco Central do Brasil), garantindo tanto a conformidade quanto a eficiência do processo.</p>
+                    <p>- Estabeleci protocolos seguros de registro para identificação de operadores por meio de dados criptografados, aumentando assim a segurança operacional.</p>
+                    <p>- Executei com sucesso migrações CI/CD, contribuindo para o aprimoramento dos processos de integração contínua e entrega contínua.</p>
+                    <p>- Executei migrações de serviços previamente desenvolvidos em Slim para a arquitetura HyperF, resultando em um desempenho e escalabilidade aprimorados.</p>
+                
+                <hr>
+
+                <h4>MOVA | Credit as a Service</h4>
+                <h5>Estágiário</h5>
+                <h5>Maio de 2022 - Janeiro de 2023, Remoto</h5>
+
+                <p>Responsabilidades:</p>
+                <p>- Aprender diversas tecnologias, incluindo Docker, PHP Slim Framework, conexões de banco de dados e controle de versão.</p>
+                <p>- Acompanhar de perto o trabalho dos colaboradores em tempo integral.</p>
+                <p>- Participar ativamente dos projetos, a fim de ganhar experiência prática e contribuir com os esforços da equipe.</p>
+                
+                <hr>
+
+                <h4>Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais</h4>
+                <h5>Programa de Mediadores Virtuais de Ensino</h5>
+                <h5>Março de 2021 - Agosto de 2021, Poços de Caldas, Minas Gerais, Brasil</h5>
+
+                <p>Bolsista no programa de mediadores virtuais de ensino, cujo propósito era auxiliar a comunicação entre alunos e professores durante o ensino remoto, sob a orientação do coordenador educacional André Gripp.</p>
+                
             </div>
 
             <div class="education" :class="{ 'rm_education': renderMode }">
-                <h3>Education</h3>
-                <h4>Instituto Federal de Educação, Ciência e Tecnologia do Sul de
-                    Minas Gerais
-                </h4>
-                <p>Bacharelado em Engenharia, Engenharia de Computação · (2016 - 2023)</p>
-                <p>LINK DO DIPLOMA + CONSERTAR DATA NO LINKEDIN</p>
+                <h3>Educação</h3>
+                <h4>Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais</h4>
+                <p>Bacharelado em Engenharia, Engenharia de Computação · (2016 - 2022)</p>
+                <div class="validation">
+                <p>Endereço de Validação: </p> <a href="https://suap.ifsuldeminas.edu.br/edu/diploma_digital/6388/1082.1082.12415f4847b3/" target="_blank">https://suap.ifsuldeminas.edu.br/edu/diploma_digital/6388/1082.1082.12415f4847b3/</a>
+                </div>
             </div>
         </div>
         <div class="left_side" :class="{ 'rm_left_side': renderMode }">
             <div class="contact">
-                <h3>Contact</h3>
-                <p>(35) 98404-3366</p>
+                <h3>Contato</h3>
+                <p>+55 35 98404-3366</p>
                 <p>lucasjbastos26@gmail.com</p>
                 <a href="https://www.linkedin.com/in/lucas-junqueira-bastos-85b89b203/" target="_blank">
                     <p>https://www.linkedin.com/in/lucas-junqueira-bastos-85b89b203/</p>
@@ -147,32 +155,40 @@ export default {
             </div>
 
             <div class="skills">
-                <h3>Skills</h3>
+                <h3>Habilidades e Competências</h3>
                 <ul>
-                    <li>Stack: Laravel + Vue</li>
-                    <li>Raw PHP</li>
-                    <li>Git Version Control</li>
-                    <li>Object Orientation Programming</li>
-                    <li>SOLID Principles</li>
-                    <li>Project Documentation</li>
+                    <li>PHP Puro</li>
+                    <li>Framework Slim</li>
+                    <li>Laravel</li>
+                    <li>Vue.Js</li>
+                    <li>MySQL - Banco de Dados</li>
+                    <li>Git - Controle de Versão</li>
+                    <li>Documentação de Projetos de Código</li>
+                    <li>Programação Orientada a Objetos - Paradigma</li>
+                    <li>Principios SOLID</li>
+                    <li>Javascript</li>
+                    <li>Java</li>
                 </ul>
             </div>
 
             <div class="language">
-                <h3>Languages</h3>
+                <h3>Línguas</h3>
                 <ul>
-                    <li>Portuguese - Native</li>
-                    <li>English - (Check level with AI)</li>
+                    <li>Português - Nativo</li>
+                    <li>Inglês - Avançado</li>
                 </ul>
             </div>
 
             <div class="certifications">
-                <h3>Certifications</h3>
+                <h3>Certificados</h3>
                 <ul>
                     <li>Alura - Formação Aprenda a programar em PHP</li>
-                    <li>Alura - Aprofunde em PHP com arquitetura e padrões de projeto</li>
+                    <li>Alura - Formação PHP</li>
+                    <li>Alura - Formação Aprofunde em PHP com arquitetura e padrões de projeto</li>
                     <li>Alura - Formação Segurança de software com OWASP</li>
-                    <li>Mova - Certificado de participação Hyperf</li>
+                    <li>MOVA - Certificado de participação Hyperf</li>
+                    <li>DIO - Bootcamp Nexa - Fundamentos de IA Generativa e Claude 3</li>
+                    <li>IF - Startup Weekend Machado</li>
                 </ul>
             </div>
         </div>
@@ -209,7 +225,7 @@ export default {
 }
 
 .rm_portfolio_container p{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .rm_right_side {
@@ -239,7 +255,7 @@ export default {
 }
 
 .rm_left_side p{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 </style>
