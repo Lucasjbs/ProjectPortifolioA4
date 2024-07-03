@@ -70,7 +70,7 @@ export default {
                 <h2>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').title : '' }}</h2>
                 
                 <div id="default-carousel" class="relative w-full" data-carousel="static">
-                    <div class="relative h-lvh overflow-hidden rounded-lg md:h-lvh">
+                    <div class="relative h-96 overflow-hidden rounded-lg md:h-96">
                         <!-- Item 1 -->
                         <div class="hidden duration-700 ease-in-out" data-carousel-item>
                             <img src="../../assets/homepage/college.jpg" class="absolute block w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
@@ -78,6 +78,7 @@ export default {
                                 <div className="w-3/4 pl-12 md:w-3/4 md:pl-40 lg:pl-60 carousel_content">
                                     <h3>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').university[0] : '' }}</h3>
                                     <p>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').university[1] : '' }}</p>
+                                    <p>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').university[2] : '' }}</p>
                                 </div>
                             </div>
                         </div>
@@ -88,6 +89,7 @@ export default {
                                 <div className="w-3/4 pl-12 md:w-3/4 md:pl-40 lg:pl-60 carousel_content">
                                     <h3>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').internship[0] : '' }}</h3>
                                     <p>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').internship[1] : '' }}</p>
+                                    <p>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').internship[2] : '' }}</p>
                                 </div>
                             </div>
                         </div>
@@ -98,6 +100,7 @@ export default {
                                 <div className="w-3/4 pl-12 md:w-3/4 md:pl-40 lg:pl-60 carousel_content">
                                     <h3>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').developer[0] : '' }}</h3>
                                     <p>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').developer[1] : '' }}</p>
+                                    <p>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').developer[2] : '' }}</p>
                                 </div>
                             </div>
                         </div>
@@ -108,6 +111,7 @@ export default {
                                 <div className="w-3/4 pl-12 md:w-3/4 md:pl-40 lg:pl-60 carousel_content">
                                     <h3>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').personal[0] : '' }}</h3>
                                     <p>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').personal[1] : '' }}</p>
+                                    <p>{{ $t('HomepageExperienceProjects') !== 'HomepageExperienceProjects' ? $t('HomepageExperienceProjects').personal[2] : '' }}</p>
                                 </div>
                             </div>
                         </div>

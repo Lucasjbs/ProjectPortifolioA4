@@ -19,19 +19,23 @@
       "title": "Experiência e Projetos",
       "university": [
         "Universidade",
-        "Na faculdade, construí protótipos de compiladores, web crawlers, sites, simulações de redes e mais..."
+        "Durante meu tempo na faculdade, mergulhei profundamente nos fundamentos e paradigmas da programação, construindo projetos que focavam em estruturas de dados usando a linguagem C. Um dos meus projetos notáveis foi uma solução de backup de sistemas distribuídos desenvolvida em Java, utilizando Java Web Sockets para gerenciar os dados de backup.",
+        "Além disso, participei de vários projetos de sistemas inteligentes. Completei dois mini-projetos sobre Redes Neurais, que envolviam a extração de dados de arquivos .data e o cálculo do custo de cada interação. O objetivo era reduzir o custo de cada interação sucessiva, seguindo os princípios da regressão logística. Além disso, desenvolvi um projeto de algoritmo genético com o objetivo de encontrar o caminho mais curto entre dois pontos, simulando um cenário de navegação em mapa."
       ],
       "internship": [
         "Estágio na Mova",
-        "Durante meu estágio na Mova, coloquei em prática os fundamentos da programação. Aprendi a usar o framework Slim com Docker, GitLab e Linux como meu sistema operacional..."
+        "Durante meu estágio na MOVA, apliquei os fundamentos da programação em um ambiente profissional. Adquiri experiência prática com o framework Slim e Docker, e aprendi a usar o GitLab para controle eficiente de versão de código. Além disso, o Linux foi meu sistema operacional principal para desenvolver código em serviços web.",
+        "Também coloquei em prática os princípios de Programação Orientada a Objetos (OOP) e SOLID através da participação ativa em vários projetos. Isso me permitiu ganhar experiência prática enquanto contribuía para os esforços da equipe. Meu papel exigia que eu integrasse conhecimento teórico com aplicações do mundo real, reforçando minha compreensão e capacidade no desenvolvimento de software."
       ],
       "developer": [
         "Desenvolvedor Backend Júnior na Mova",
-        "Como funcionário, fiz documentações vinculando o código ao modelo de negócios da empresa, criei e corrigi casos de teste com phpunit, fiz configurações de CI/CD e mais..."
+        "Como funcionário da MOVA, fui responsável por uma ampla gama de atividades de desenvolvimento backend. Minhas principais responsabilidades incluíam o desenvolvimento e execução de projetos e serviços backend usando as tecnologias Slim e HyperF. Também participei da criação e implementação de estratégias de cobertura de testes e integrei bancos de dados MySQL, utilizando o Elastic para otimizar o desempenho.",
+        "Durante meu tempo como Desenvolvedor Júnior, participei ativamente da implementação de novos recursos e assegurei a segurança de vários projetos através de coberturas de testes. Também contribuí para a documentação de novos projetos, fornecendo orientação técnica para futuras atualizações, e até mesmo atualizei as configurações do pipeline de CI/CD."
       ],
       "personal": [
         "Projetos Pessoais",
-        "Fiz meu próprio site pessoal do zero, trabalhei em projetos freelance e continuo estudando para melhorar meu desempenho, com bootcamps e cursos..."
+        "No meu tempo livre, dediquei-me a construir meu site pessoal do zero usando PHP puro, JavaScript e conceitos básicos de front-end. Este projeto prático permitiu-me solidificar minha compreensão dos princípios fundamentais do desenvolvimento web. Após dominar esses fundamentos, passei a usar ferramentas mais poderosas, criando uma nova versão do meu site com Laravel e Vue.js. Esta progressão permitiu-me aproveitar recursos e frameworks avançados, melhorando a funcionalidade e o desempenho do meu site.",
+        "Além disso, trabalhei em vários projetos freelance, aplicando minhas habilidades em cenários do mundo real e ganhando experiência valiosa. Também participei ativamente de bootcamps e cursos online para continuar meus estudos e melhorar meu desempenho como desenvolvedor web. Essas oportunidades contínuas de aprendizado mantiveram-me atualizado com as últimas tendências e melhores práticas do setor, garantindo que eu permaneça um profissional competitivo e informado na área."
       ]
     },
     "HomepageSkillProficienciesTitle": "Habilidades e Competências",

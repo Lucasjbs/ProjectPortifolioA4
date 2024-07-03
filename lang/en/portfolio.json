@@ -1,0 +1,77 @@
+{
+    "PortfolioDevTitle": "Web Developer",
+    "PortfolioDevLocation": "Santa Catarina, Brazil",
+    "PortfolioSumTitle": "Summary",
+    "PortfolioSumParagraphOne": "Experienced in backend development within the dynamic environments of technology startups, coupled with hands-on experience as a full-stack developer in various college and personal projects.",
+    "PortfolioSumParagraphTwo": "Throughout my professional career, I went through challenging paths that taught me the importance of discipline, collaboration, continuous learning, and the relentless pursuit of professional growth. Currently, I'm looking for new connections and opportunities to work as a developer, exchange ideas and grow professionally.",
+    "PortfolioExperienceTitle": "Experience",
+    "PortfolioExp": {
+        "CompanyOneTitleSpecs": [
+            "MOVA | Credit as a Service",
+            "Junior Backend Developer",
+            "January 2023 - January 2024, Remote"
+        ],
+        "CompanyOneJobDesc": [
+            "Mova is the 1st Peer-to-Peer Lending platform approved and supervised by the Brazilian Central Bank in the form of a Peer-to-Peer Loan Society (SEP).",
+            "Responsibilities",
+            "Development and execution of backend projects and services, using Slimand HyperF technologies.",
+            "Development and implementation of test coverage strategies.",
+            "Integration with the MySQL database and use of Elastic to optimize performance and scalability.",
+            "Results",
+            "Participated on the implementation of Access Tags for website clients, significantly improving user experience and bolstering security measures.",
+            "Participated on the adjustments in the generation of documentation for document 3040 to BACEN (Brazilian Central Bank), ensuring both compliance and process efficiency.",
+            "Established secure registration protocols for operator identification through encrypted data, thereby enhancing operational security.",
+            "Successfully executed CI/CD migrations, contributing to the refinement of continuous integration and continuous delivery processes.",
+            "Executed migrations from services previously developed in Slim to the HyperF architecture, resulting in enhanced performance and scalability."
+        ],
+        "CompanyTwoTitleSpecs": [
+            "MOVA | Credit as a Service",
+            "Internship",
+            "May 2022 - January 2023, Remote"
+        ],
+        "CompanyTwoJobDesc": [
+            "Responsibilities:",
+            "Learn multiple technologies, including Docker, PHP Slim Framework, database connections, and version control.",
+            "Support the full-time employees in their tasks and projects.",
+            "Participate in project activities and contribute to the team to gain practical knowledge."
+        ],
+        "CompanyThreeTitleSpecs": [
+            "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
+            "Virtual Teaching Mediator Program",
+            "March 2021 - August 2021, Poços de Caldas, Minas Gerais, Brazil"
+        ],
+        "CompanyThreeJobDesc": "Scholar in the virtual teaching mediators program, whose purpose was to assist communication between students and teachers during remote learning, under the guidance of the educational coordinator André Gripp."
+    },
+    "PortfolioEducationTitle": "Education",
+    "PortfolioEducationBachelorDesc": "Bachelor's Degree in Computer Engineering · (2016 - 2022)",
+    "PortfolioEducationBachelorValidation": "Validation Address:",
+    "PortfolioContactTitle": "Contact",
+    "PortfolioSkillsDesc": [
+        "Skills",
+        "Experienced in PHP and Javascript development",
+        "Experienced in Laravel and Vue.Js web development",
+        "Proficient in GIT version control with with experience in team collaboration",
+        "Experienced with SQL data management with MySQL",
+        "Strong understanding of language fundamentals, object oriented programming (OOP), SOLID and best practices",
+        "Proficient in project documentation to aid in project understanding and maintenance",
+        "Experienced with Test-Driven Development (TDD) methodologies",
+        "Familiar with Slim Framework, HyperF and Elastic"
+    ],
+    "PortfolioLanguagesDesc": [
+        "Languages",
+        "Portuguese - Native",
+        "English - Advanced"
+    ],
+    "PortfolioCertificatesDesc": [
+        "Certificates",
+        "Alura - Learn to program in PHP Training",
+        "Alura - PHP Training",
+        "Alura - Delve into PHP with architecture and design patterns training",
+        "Alura - Software Security with OWASP Training",
+        "MOVA - Hyperf lecture participation certificate",
+        "DIO - Nexa Bootcamp, Fundamentals of Generative AI and Claude 3",
+        "IF - Startup Weekend Machado"
+    ],
+    "PortfolioButtonOne": "View PDF",
+    "PortfolioButtonTwo": "Download PDF"
+}
