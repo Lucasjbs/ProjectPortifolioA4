@@ -19,19 +19,23 @@
       "title": "Experience and Projects",
       "university": [
         "University",
-        "In college I built compiler prototypes, web crawlers, websites, network simulations and more..."
+        "During my time in college, I delved deeply into programming fundamentals and paradigms, building projects that focused on data structures using the C language. One of my notable projects was a distributed systems backup solution developed in Java, utilizing Java Web Sockets to manage the backup data.",
+        "In addition, I engaged in several intelligent systems projects. I completed two mini-projects on Neural Networks, which involved extracting data from .data files and calculating the cost of each interaction. The goal was to reduce the cost of each successive interaction, adhering to the principles of logistic regression. Furthermore, I developed a genetic algorithm project aimed at finding the shortest path between two points, simulating a map navigation scenario."
       ],
       "internship": [
         "Internship at Mova",
-        "During my internship at Mova I put the fundamentals of programming into practice. I learned how to use the slim framework with docker, gitlab and Linux as my operating system..."
+        "During my internship at MOVA, I applied the fundamentals of programming in a professional setting. I gained hands-on experience with the Slim framework and Docker, and I learned to use GitLab for efficient code version control. Additionally, Linux was my primary operating system for developing code in web services.",
+        "I also put Object-Oriented Programming (OOP) and SOLID principles into practice through active participation in various projects. This allowed me to gain practical experience while contributing to the team's efforts. My role required me to integrate theoretical knowledge with real-world applications, reinforcing my understanding and capability in software development."
       ],
       "developer": [
         "Junior Backend Developer at Mova",
-        "As an employee, I made documentations tying the code with the company's business model, created and fixed test cases with phpunit, made CI/CD configurations and more..."
+        "As an employee at MOVA, I was responsible for a wide range of backend development activities. My primary duties included the development and execution of backend projects and services using Slim and HyperF technologies. I was also involved in the creation and implementation of test coverage strategies and integrated MySQL databases, utilizing Elastic to optimize performance.",
+        "During my time as a Junior Developer, I actively participated in the implementation of new features and ensured the safety of multiple projects through test coverages. I also contributed to the documentation of new projects, providing technical guidance for future updates, and I even updated CI/CD pipeline configurations."
       ],
       "personal": [
         "Personal Projects",
-        "Made my own personal website from scratch, worked on freelance projects and continue to study to improve my performance, with bootcamps and courses..."
+        "In my free time, I dedicated myself to building my personal website from scratch using raw PHP, JavaScript, and front-end basics. This hands-on project allowed me to solidify my understanding of core web development principles. After mastering these fundamentals, I transitioned to using more powerful tools, creating a new version of my website with Laravel and Vue.js. This progression enabled me to leverage advanced features and frameworks, enhancing the functionality and performance of my site.",
+        "Additionally, I worked on various freelance projects, applying my skills in real-world scenarios and gaining valuable experience. I also actively participated in bootcamps and online courses to further my studies and improve my performance as a web developer. These continuous learning opportunities have kept me updated with the latest industry trends and best practices, ensuring that I remain a competitive and knowledgeable professional in the field."
       ]
     },
     "HomepageSkillProficienciesTitle": "Skill Proficiencies",

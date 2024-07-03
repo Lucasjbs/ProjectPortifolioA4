@@ -1,0 +1,77 @@
+{
+    "PortfolioDevTitle": "Desenvolvedor Web",
+    "PortfolioDevLocation": "Santa Catarina, Brasil",
+    "PortfolioSumTitle": "Resumo",
+    "PortfolioSumParagraphOne": "Experiente em desenvolvimento de códigos back-end em ambientes dinâmicos como o de startups de tecnologia, juntamente com experiência prática como desenvolvedor full-stack em diversos projetos universitários e pessoais.",
+    "PortfolioSumParagraphTwo": "Ao longo de minha jornada profissional, passei por situações desafiadoras que me ensinaram a importância da disciplina, da colaboração, do aprendizado contínuo e da busca incessante pelo crescimento profissional. Atualmente, estou buscando novas conexões e oportunidades para trabalhar como desenvolvedor, trocar ideias e crescer profissionalmente.",
+    "PortfolioExperienceTitle": "Experiência",
+    "PortfolioExp": {
+        "CompanyOneTitleSpecs": [
+            "MOVA | Credit as a Service",
+            "Desenvolvedor Backend Júnior",
+            "Janeiro de 2023 - Janeiro de 2024, Remoto"
+        ],
+        "CompanyOneJobDesc": [
+            "A Mova é a primeira plataforma de empréstimo peer-to-peer aprovada e supervisionada pelo Banco Central do Brasil na forma de uma Sociedade de Empréstimo entre Pessoas (SEP).",
+            "Responsabilidades",
+            "Desenvolvimento e execução de projetos e serviços de backend, utilizando as tecnologias Slim e HyperF.",
+            "Desenvolvimento e implementação de estratégias de cobertura de testes.",
+            "Integração com o banco de dados MySQL e uso do Elastic para otimizar desempenho e escalabilidade.",
+            "Resultados",
+            "Participei da implementação de Tags de Acesso para clientes do site, melhorando significativamente a experiência do usuário e fortalecendo as medidas de segurança.",
+            "Participei dos ajustes na geração de documentação para o documento 3040 do BACEN (Banco Central do Brasil), garantindo tanto a conformidade quanto a eficiência do processo.",
+            "Estabeleci protocolos seguros de registro para identificação de operadores por meio de dados criptografados, aumentando assim a segurança operacional.",
+            "Executei com sucesso migrações CI/CD, contribuindo para o aprimoramento dos processos de integração contínua e entrega contínua.",
+            "Executei migrações de serviços previamente desenvolvidos em Slim para a arquitetura HyperF, resultando em um desempenho e escalabilidade aprimorados."
+        ],
+        "CompanyTwoTitleSpecs": [
+            "MOVA | Credit as a Service",
+            "Estágiário",
+            "Maio de 2022 - Janeiro de 2023, Remoto"
+        ],
+        "CompanyTwoJobDesc": [
+            "Responsabilidades:",
+            "Aprender diversas tecnologias, incluindo Docker, PHP Slim Framework, conexões de banco de dados e controle de versão.",
+            "Acompanhar de perto o trabalho dos colaboradores em tempo integral.",
+            "Participar ativamente dos projetos, a fim de ganhar experiência prática e contribuir com os esforços da equipe."
+        ],
+        "CompanyThreeTitleSpecs": [
+            "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
+            "Programa de Mediadores Virtuais de Ensino",
+            "Março de 2021 - Agosto de 2021, Poços de Caldas, Minas Gerais, Brasil"
+        ],
+        "CompanyThreeJobDesc": "Bolsista no programa de mediadores virtuais de ensino, cujo propósito era auxiliar a comunicação entre alunos e professores durante o ensino remoto, sob a orientação do coordenador educacional André Gripp."
+    },
+    "PortfolioEducationTitle": "Educação",
+    "PortfolioEducationBachelorDesc": "Bacharelado em Engenharia, Engenharia de Computação · (2016 - 2022)",
+    "PortfolioEducationBachelorValidation": "Endereço de Validação:",
+    "PortfolioContactTitle": "Contato",
+    "PortfolioSkillsDesc": [
+        "Habilidades e Competências",
+        "Experiente em desenvolvimento de códigos com PHP e Javascript",
+        "Experiente em desenvolvimento web com Laravel e Vue.Js",
+        "Proficiente em sistemas de controle de versão Git com experiência em colaboração com equipes",
+        "Experiente em gerenciamento de dados SQL com MySQL",
+        "Compreensão sólida dos fundamentos da linguagem, programação orientada a objetos(OOP), princípios SOLID e boas práticas",
+        "Proficiente em documentação de projetos para auxiliar na compreensão e manutenção do projeto",
+        "Experiente com metodologias de Desenvolvimento Orientado a Testes (TDD)",
+        "Familiarizado com Slim Framework, HyperF e Elastic"
+    ],
+    "PortfolioLanguagesDesc": [
+        "Línguas",
+        "Português - Nativo",
+        "Inglês - Avançado"
+    ],
+    "PortfolioCertificatesDesc": [
+        "Certificados",
+        "Alura - Formação Aprenda a programar em PHP",
+        "Alura - Formação PHP",
+        "Alura - Formação Aprofunde em PHP com arquitetura e padrões de projeto",
+        "Alura - Formação Segurança de software com OWASP",
+        "MOVA - Certificado de participação Hyperf",
+        "DIO - Bootcamp Nexa - Fundamentos de IA Generativa e Claude 3",
+        "IF - Startup Weekend Machado"
+    ],
+    "PortfolioButtonOne": "Visualizar PDF",
+    "PortfolioButtonTwo": "Baixar PDF"
+}
