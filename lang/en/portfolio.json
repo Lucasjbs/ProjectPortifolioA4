@@ -14,15 +14,15 @@
         "CompanyOneJobDesc": [
             "Mova is the 1st Peer-to-Peer Lending platform approved and supervised by the Brazilian Central Bank in the form of a Peer-to-Peer Loan Society (SEP).",
             "Responsibilities",
-            "Development and execution of backend projects and services, using Slimand HyperF technologies.",
-            "Development and implementation of test coverage strategies.",
-            "Integration with the MySQL database and use of Elastic to optimize performance and scalability.",
+            "Development of backend projects and services using Slim and HyperF technologies.",
+            "Implementation of test coverage strategies.",
+            "Integration with database using MySQL and Elastic.",
             "Results",
-            "Participated on the implementation of Access Tags for website clients, significantly improving user experience and bolstering security measures.",
-            "Participated on the adjustments in the generation of documentation for document 3040 to BACEN (Brazilian Central Bank), ensuring both compliance and process efficiency.",
-            "Established secure registration protocols for operator identification through encrypted data, thereby enhancing operational security.",
-            "Successfully executed CI/CD migrations, contributing to the refinement of continuous integration and continuous delivery processes.",
-            "Executed migrations from services previously developed in Slim to the HyperF architecture, resulting in enhanced performance and scalability."
+            "Participation in the implementation of Access Tags for website clients.",
+            "Participation in the adjustments of the document 3040 generator for BACEN (Brazilian Central Bank).",
+            "Established secure registration protocols for operator identification through encrypted data.",
+            "Successful execution of CI/CD migrations.",
+            "Executed migrations from services developed in Slim to the HyperF architecture."
         ],
         "CompanyTwoTitleSpecs": [
             "MOVA | Credit as a Service",
@@ -31,9 +31,9 @@
         ],
         "CompanyTwoJobDesc": [
             "Responsibilities:",
-            "Learn multiple technologies, including Docker, PHP Slim Framework, database connections, and version control.",
-            "Support the full-time employees in their tasks and projects.",
-            "Participate in project activities and contribute to the team to gain practical knowledge."
+            "Hands-on experience with the Slim framework and Docker",
+            "Use of GitLab for efficient code version control",
+            "Practice of Object-Oriented Programming (OOP) and SOLID principles in a professional environment."
         ],
         "CompanyThreeTitleSpecs": [
             "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
@@ -48,14 +48,19 @@
     "PortfolioContactTitle": "Contact",
     "PortfolioSkillsDesc": [
         "Skills",
-        "Experienced in PHP and Javascript development",
-        "Experienced in Laravel and Vue.Js web development",
-        "Proficient in GIT version control with with experience in team collaboration",
-        "Experienced with SQL data management with MySQL",
-        "Strong understanding of language fundamentals, object oriented programming (OOP), SOLID and best practices",
-        "Proficient in project documentation to aid in project understanding and maintenance",
-        "Experienced with Test-Driven Development (TDD) methodologies",
-        "Familiar with Slim Framework, HyperF and Elastic"
+        "PHP - Advanced Knowledge",
+        "Javascript - Experienced",
+        "Laravel + Vue.Js Stack - Basic Knowledge",
+        "GIT version control - Experienced",
+        "MySQL Database - Experienced",
+        "Test-Driven Development (TDD) - Advanced Knowledge",
+        "Language Fundamentals - Advanced Knowledge",
+        "Object Oriented Programming (OOP) - Advanced Knowledge",
+        "SOLID Principles and Best Practices - Experienced",
+        "Project Documentation - Experienced",
+        "Slim Framework - Experienced",
+        "HyperF - Basic Knowledge", 
+        "Elastic - Basic Knowledge"
     ],
     "PortfolioLanguagesDesc": [
         "Languages",
