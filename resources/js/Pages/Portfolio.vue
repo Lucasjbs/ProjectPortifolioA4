@@ -76,7 +76,7 @@ export default {
                 <h3>{{ $t('PortfolioSumTitle') }}</h3>
 
                 <p>{{ $t('PortfolioSumParagraphOne') }}</p>
-                <p>{{ $t('PortfolioSumParagraphTwo') }}</p>
+                <!-- <p>{{ $t('PortfolioSumParagraphTwo') }}</p> -->
             </div>
 
             <div class="experience" :class="{ 'rm_experience': renderMode }">
@@ -86,19 +86,19 @@ export default {
                 <h5>{{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneTitleSpecs[1] : '' }}</h5>
                 <h5>{{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneTitleSpecs[2] : '' }}</h5>
 
-                <p>{{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[0] : '' }}</p>
-
-                <p>{{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[1] : '' }}</p>
-                    <p>- {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[2] : '' }}</p>
-                    <p>- {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[3] : '' }}</p>
-                    <p>- {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[4] : '' }}</p>
-                <p>{{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[5] : '' }}</p>
+                    <p>&#x203A; {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[2] : '' }}</p>
+                    <p>&#x203A; {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[3] : '' }}</p>
+                    <p>&#x203A; {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[4] : '' }}</p>
                     
-                    <p>- {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[6] : '' }}</p>
-                    <p>- {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[7] : '' }}</p>
-                    <p>- {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[8] : '' }}</p>
-                    <p>- {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[9] : '' }}</p>
-                    <p>- {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[10] : '' }}</p>
+                    <p>&#x203A; {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[6] : '' }}</p>
+                    <p>&#x203A; {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[7] : '' }}</p>
+                    <p>&#x203A; {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[8] : '' }}</p>
+                    <p>&#x203A; {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[9] : '' }}</p>
+                    <p>&#x203A; {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyOneJobDesc[10] : '' }}</p>
+
+                <div v-if="renderMode" class="print-space">
+                    <br v-for="n in 11" :key="n" />
+                </div>
                 
                 <hr>
 
@@ -106,10 +106,9 @@ export default {
                 <h5>{{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyTwoTitleSpecs[1] : '' }}</h5>
                 <h5>{{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyTwoTitleSpecs[2] : '' }}</h5>
 
-                <p>{{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyTwoJobDesc[0] : '' }}</p>
-                <p>- {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyTwoJobDesc[1] : '' }}</p>
-                <p>- {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyTwoJobDesc[2] : '' }}</p>
-                <p>- {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyTwoJobDesc[3] : '' }}</p>
+                <p>&#x203A; {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyTwoJobDesc[1] : '' }}</p>
+                <p>&#x203A; {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyTwoJobDesc[2] : '' }}</p>
+                <p>&#x203A; {{ $t('PortfolioExp') !== 'PortfolioExp' ? $t('PortfolioExp').CompanyTwoJobDesc[3] : '' }}</p>
                 
                 <hr>
 
@@ -155,6 +154,11 @@ export default {
                     <li>{{ $t('PortfolioSkillsDesc') !== 'PortfolioSkillsDesc' ? $t('PortfolioSkillsDesc')[6] : '' }}</li>
                     <li>{{ $t('PortfolioSkillsDesc') !== 'PortfolioSkillsDesc' ? $t('PortfolioSkillsDesc')[7] : '' }}</li>
                     <li>{{ $t('PortfolioSkillsDesc') !== 'PortfolioSkillsDesc' ? $t('PortfolioSkillsDesc')[8] : '' }}</li>
+                    <li>{{ $t('PortfolioSkillsDesc') !== 'PortfolioSkillsDesc' ? $t('PortfolioSkillsDesc')[9] : '' }}</li>
+                    <li>{{ $t('PortfolioSkillsDesc') !== 'PortfolioSkillsDesc' ? $t('PortfolioSkillsDesc')[10] : '' }}</li>
+                    <li>{{ $t('PortfolioSkillsDesc') !== 'PortfolioSkillsDesc' ? $t('PortfolioSkillsDesc')[11] : '' }}</li>
+                    <li>{{ $t('PortfolioSkillsDesc') !== 'PortfolioSkillsDesc' ? $t('PortfolioSkillsDesc')[12] : '' }}</li>
+                    <li>{{ $t('PortfolioSkillsDesc') !== 'PortfolioSkillsDesc' ? $t('PortfolioSkillsDesc')[13] : '' }}</li>
                 </ul>
             </div>
 
@@ -164,6 +168,9 @@ export default {
                     <li>{{ $t('PortfolioLanguagesDesc') !== 'PortfolioLanguagesDesc' ? $t('PortfolioLanguagesDesc')[1] : '' }}</li>
                     <li>{{ $t('PortfolioLanguagesDesc') !== 'PortfolioLanguagesDesc' ? $t('PortfolioLanguagesDesc')[2] : '' }}</li>
                 </ul>
+            </div>
+            <div v-if="renderMode" class="print-space">
+                <br v-for="n in 2" :key="n" />
             </div>
 
             <div class="certifications">
@@ -177,6 +184,11 @@ export default {
                     <li>{{ $t('PortfolioCertificatesDesc') !== 'PortfolioCertificatesDesc' ? $t('PortfolioCertificatesDesc')[6] : '' }}</li>
                     <li>{{ $t('PortfolioCertificatesDesc') !== 'PortfolioCertificatesDesc' ? $t('PortfolioCertificatesDesc')[7] : '' }}</li>
                 </ul>
+            </div>
+
+            <div v-if="renderMode" class="print-space">
+                <br v-for="n in 24" :key="n" />
+                <p></p>
             </div>
         </div>
     </div>
@@ -212,11 +224,10 @@ export default {
 }
 
 .rm_portfolio_container p{
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .rm_right_side {
-    width: 60%;
     padding-right: 8px;
 }
 
@@ -241,6 +252,10 @@ export default {
 }
 
 .rm_left_side p{
+    font-size: 14px;
+}
+
+.rm_left_side li{
     font-size: 14px;
 }
 

@@ -14,15 +14,15 @@
         "CompanyOneJobDesc": [
             "A Mova é a primeira plataforma de empréstimo peer-to-peer aprovada e supervisionada pelo Banco Central do Brasil na forma de uma Sociedade de Empréstimo entre Pessoas (SEP).",
             "Responsabilidades",
-            "Desenvolvimento e execução de projetos e serviços de backend, utilizando as tecnologias Slim e HyperF.",
-            "Desenvolvimento e implementação de estratégias de cobertura de testes.",
-            "Integração com o banco de dados MySQL e uso do Elastic para otimizar desempenho e escalabilidade.",
+            "Desenvolvimento de projetos backend utilizando as tecnologias Slim e HyperF.",
+            "Implementação de estratégias de cobertura de testes.",
+            "Integração com o banco de dados usando MySQL e Elastic.",
             "Resultados",
-            "Participei da implementação de Tags de Acesso para clientes do site, melhorando significativamente a experiência do usuário e fortalecendo as medidas de segurança.",
-            "Participei dos ajustes na geração de documentação para o documento 3040 do BACEN (Banco Central do Brasil), garantindo tanto a conformidade quanto a eficiência do processo.",
-            "Estabeleci protocolos seguros de registro para identificação de operadores por meio de dados criptografados, aumentando assim a segurança operacional.",
-            "Executei com sucesso migrações CI/CD, contribuindo para o aprimoramento dos processos de integração contínua e entrega contínua.",
-            "Executei migrações de serviços previamente desenvolvidos em Slim para a arquitetura HyperF, resultando em um desempenho e escalabilidade aprimorados."
+            "Participação na implementação de Tags de Acesso para clientes do site.",
+            "Participação nos ajustes do gerador do documento 3040 para o BACEN (Banco Central do Brasil).",
+            "Estabeleci protocolos seguros de registro para identificação de operadores por meio de dados criptografados.",
+            "Execução com sucesso migrações CI/CD.",
+            "Execução de migrações de serviços desenvolvidos em Slim para a arquitetura HyperF."
         ],
         "CompanyTwoTitleSpecs": [
             "MOVA | Credit as a Service",
@@ -31,9 +31,9 @@
         ],
         "CompanyTwoJobDesc": [
             "Responsabilidades:",
-            "Aprender diversas tecnologias, incluindo Docker, PHP Slim Framework, conexões de banco de dados e controle de versão.",
-            "Acompanhar de perto o trabalho dos colaboradores em tempo integral.",
-            "Participar ativamente dos projetos, a fim de ganhar experiência prática e contribuir com os esforços da equipe."
+            "Adquirir experiência prática com o framework Slim e Docker",
+            "Aprender a usar o GitLab para controle eficiente de versão de código",
+            "Prática dos princípios de Programação Orientada a Objetos (OOP) e SOLID em um ambiente profissional"
         ],
         "CompanyThreeTitleSpecs": [
             "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
@@ -48,14 +48,19 @@
     "PortfolioContactTitle": "Contato",
     "PortfolioSkillsDesc": [
         "Habilidades e Competências",
-        "Experiente em desenvolvimento de códigos com PHP e Javascript",
-        "Experiente em desenvolvimento web com Laravel e Vue.Js",
-        "Proficiente em sistemas de controle de versão Git com experiência em colaboração com equipes",
-        "Experiente em gerenciamento de dados SQL com MySQL",
-        "Compreensão sólida dos fundamentos da linguagem, programação orientada a objetos(OOP), princípios SOLID e boas práticas",
-        "Proficiente em documentação de projetos para auxiliar na compreensão e manutenção do projeto",
-        "Experiente com metodologias de Desenvolvimento Orientado a Testes (TDD)",
-        "Familiarizado com Slim Framework, HyperF e Elastic"
+        "PHP - Conhecimento Avançado",
+        "Javascript - Experiente",
+        "Pacote Laravel + Vue.Js - Conhecimento Básico",
+        "Controle de versão GIT - Experiente",
+        "Banco de Dados MySQL - Experiente",
+        "Desenvolvimento Orientado a Testes (TDD) - Conhecimento Avançado",
+        "Fundamentos de Linguagem - Conhecimento Avançado",
+        "Programação Orientada a Objetos (OOP) - Conhecimento Avançado",
+        "Princípios SOLID e Melhores Práticas - Experiente",
+        "Documentação de Projetos - Experiente",
+        "Slim Framework - Experiente",
+        "HyperF - Conhecimento Básico",
+        "Elastic - Conhecimento Básico"
     ],
     "PortfolioLanguagesDesc": [
         "Línguas",
