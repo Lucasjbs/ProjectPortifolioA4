@@ -1,4 +1,11 @@
-# Stage 1: Build the Vue application
+# Stage 1: Install PHP dependencies with Composer
+FROM composer:latest as composer
+WORKDIR /app
+COPY composer.json composer.lock ./
+COPY . .
+RUN composer install --no-dev --optimize-autoloader
+
+# Stage 2: Build the Vue application
 FROM node:16 as build
 WORKDIR /app
 COPY package*.json ./
@@ -6,7 +13,7 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-# Stage 2: Setup the PHP environment
+# Stage 3: Setup the PHP environment
 FROM php:8.2-fpm
 
 # Set working directory
@@ -31,12 +38,15 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 # Install PHP extensions
 RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
 
-# Install Composer
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-
-# Copy existing application directory contents, excluding node_modules
+# Copy existing application directory contents
 COPY . /var/www
 COPY --chown=www-data:www-data . /var/www
+
+# Install Composer
+COPY --from=composer /usr/bin/composer /usr/bin/composer
+
+# Copy Composer dependencies
+COPY --from=composer /app/vendor /var/www/vendor
 
 # Copy Vue build files to the appropriate location
 COPY --from=build /app/public /var/www/public
